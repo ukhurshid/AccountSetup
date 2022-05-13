@@ -1,0 +1,132 @@
+$primaryColor:rgb(12, 103, 206);
+$secondaryColor:rgb(240, 240, 240);
+$textColor:rgb(41, 41, 41);
+
+@media screen and (max-width:1000px)
+{
+    .mainsection{
+        position:relative;
+        height:1200px;  
+      
+      }
+      .subsection
+        {
+            position: absolute;
+        }
+}
+
+.subsection
+{
+    position: absolute;
+    width:100%;
+   
+}
+
+.leftcolumn{
+    width:65%;
+    background-color:$secondaryColor;
+    color:$primaryColor;
+    display: flex;
+    justify-content: center;
+    float: left;
+
+    h1{
+        font-size: larger;
+        color:$textColor;
+    }
+    p{
+        margin:10px 0;
+        font-size: 9px;
+        color:$textColor;
+    }
+    a
+    {
+        font-weight:bolder;
+       color:$primaryColor;
+    }
+}
+
+.rightcolumn{
+    width:35%;
+    float: left;
+    background-color:$primaryColor;
+    color: $secondaryColor; 
+
+    p{
+        margin:10px 0;
+        font-size: 12px;
+        color:$secondaryColor;
+    }
+      
+}
+
+.process{
+    display: inline-flex;
+    align-content: flex-end;
+    font-weight: bolder;
+    padding: 10px 0;
+ 
+    
+  }
+
+.formCard
+{
+ 
+    display: block;
+    width:280px;
+    padding:150px 0px;
+    align-self: center;
+}
+
+.rightCard{
+    display: block;
+    align-self: stretch;
+    padding: 285px 50px;
+
+    h1{
+        text-align: center;
+        padding: 10px;
+        font-size: large;
+        color: $secondaryColor; 
+    }
+
+}
+
+.formElements
+{
+    border:1px solid rgb(209, 208, 208);
+    border-radius: 2px;
+    padding:10px;
+    background-color:$secondaryColor;
+    margin:10px 0;
+    width:250px;
+    font-size:9px; 
+    font-weight: bold;  
+
+}
+.selectElements{
+    border:1px solid rgb(209, 208, 208);
+    border-radius: 2px;
+    padding:10px;
+    background-color:$secondaryColor;
+    margin:10px 0;
+    width:271px;
+    font-size:9px; 
+    font-weight: bold;  
+    color:rgb(129, 129, 129);  
+
+}
+
+button{
+    background-color:rgb(218, 219, 214);
+    padding:10px;
+    margin:10px 0px;
+    color:rgb(173, 169, 169);
+    border: none;
+    border-radius: 2px;
+    width:270px;
+    font-weight: bolder;
+    font-size: 8px;
+    
+}
+

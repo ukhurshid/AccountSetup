@@ -1,0 +1,126 @@
+@media screen and (max-width: 1000px) {
+  .mainsection {
+    position: relative;
+    height: 1200px;
+  }
+  .subsection {
+    position: absolute;
+  }
+}
+
+.subsection {
+  position: absolute;
+  width: 100%;
+}
+
+.leftcolumn {
+  width: 65%;
+  background-color: #f0f0f0;
+  color: #0c67ce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  float: left;
+}
+
+.leftcolumn h1 {
+  font-size: larger;
+  color: #292929;
+}
+
+.leftcolumn p {
+  margin: 10px 0;
+  font-size: 9px;
+  color: #292929;
+}
+
+.leftcolumn a {
+  font-weight: bolder;
+  color: #0c67ce;
+}
+
+.rightcolumn {
+  width: 35%;
+  float: left;
+  background-color: #0c67ce;
+  color: #f0f0f0;
+}
+
+.rightcolumn p {
+  margin: 10px 0;
+  font-size: 12px;
+  color: #f0f0f0;
+}
+
+.process {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  font-weight: bolder;
+  padding: 10px 0;
+}
+
+.formCard {
+  display: block;
+  width: 280px;
+  padding: 150px 0px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.rightCard {
+  display: block;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
+  padding: 285px 50px;
+}
+
+.rightCard h1 {
+  text-align: center;
+  padding: 10px;
+  font-size: large;
+  color: #f0f0f0;
+}
+
+.formElements {
+  border: 1px solid #d1d0d0;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  width: 250px;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.selectElements {
+  border: 1px solid #d1d0d0;
+  border-radius: 2px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  width: 271px;
+  font-size: 9px;
+  font-weight: bold;
+  color: #818181;
+}
+
+button {
+  background-color: #dadbd6;
+  padding: 10px;
+  margin: 10px 0px;
+  color: #ada9a9;
+  border: none;
+  border-radius: 2px;
+  width: 270px;
+  font-weight: bolder;
+  font-size: 8px;
+}
+/*# sourceMappingURL=App.css.map */
